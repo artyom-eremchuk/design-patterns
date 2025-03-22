@@ -20,6 +20,9 @@
 3. **Запуск Примера Singleton**:
    ```bash
    npm run singleton
+   npm run adapter
+   npm run builder
+   npm run proxy
    ```
 
 ## Категории Паттернов Проектирования
@@ -42,7 +45,7 @@
    - Decorator
    - Facade
    - Flyweight
-   - Proxy
+   - [Proxy](src/structural/proxy/proxy.md)
 
 3. **Поведенческие Паттерны (Behavioral Patterns)**:
 
