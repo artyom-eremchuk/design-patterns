@@ -29,8 +29,8 @@ class HeroAdapter implements ModernHero {
 	}
 }
 
+// Usage
 function demonstrationAdapter() {
-	// Usage
 	const vintageSuperman = new VintageSuperman();
 	const modernSuperman = new HeroAdapter(vintageSuperman);
 
