@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"module": "ES2015",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "./src",
+		"paths": {
+			"*": ["*"]
+		}
+	}
+}

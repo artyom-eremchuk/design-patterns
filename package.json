@@ -1,0 +1,14 @@
+{
+	"name": "design-patterns",
+	"version": "1.0.0",
+	"description": "A project demonstrating design patterns",
+	"scripts": {
+		"singleton": "ts-node src/creational/singleton/singleton.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	}
+}
