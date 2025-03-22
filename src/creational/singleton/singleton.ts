@@ -18,7 +18,7 @@ class Superhero {
 }
 
 // Usage
-function main() {
+function demonstrationSingleton() {
 	const superman = Superhero.getInstance();
 	const batman = Superhero.getInstance();
 	const wonderwoman = Superhero.getInstance();
@@ -29,4 +29,4 @@ function main() {
 	console.log(wonderwoman === flash); // true
 }
 
-main();
+demonstrationSingleton();

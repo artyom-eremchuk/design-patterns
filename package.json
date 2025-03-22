@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"description": "A project demonstrating design patterns",
 	"scripts": {
-		"singleton": "ts-node src/creational/singleton/singleton.ts"
+		"singleton": "ts-node src/creational/singleton/singleton.ts",
+		"adapter": "ts-node src/structural/adapter/adapter.ts",
+		"builder": "ts-node src/creational/builder/builder.ts"
 	},
 	"author": "",
 	"license": "ISC",

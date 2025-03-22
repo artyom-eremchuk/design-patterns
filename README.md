@@ -7,7 +7,7 @@
 1. **Клонирование Репозитория**:
 
    ```bash
-   git clone https://github.com/your-username/design-patterns.git
+   git clone https://github.com/artyom-eremchuk/design-patterns.git
    cd design-patterns
    ```
 
@@ -26,10 +26,34 @@
 
 Паттерны проектирования делятся на три основные категории:
 
-1. **Порождающие Паттерны**:
+1. **Порождающие Паттерны (Creational Patterns)**:
 
+   - Abstract Factory
+   - [Builder](src/creational/builder/builder.md)
+   - Factory Method
+   - Prototype
    - [Singleton](src/creational/singleton/singleton.md)
 
-2. **Структурные Паттерны**:
+2. **Структурные Паттерны (Structural Patterns)**:
 
-3. **Поведенческие Паттерны**:
+   - [Adapter](src/structural/adapter/adapter.md)
+   - Bridge
+   - Composite
+   - Decorator
+   - Facade
+   - Flyweight
+   - Proxy
+
+3. **Поведенческие Паттерны (Behavioral Patterns)**:
+
+   - Chain of Responsibility
+   - Command
+   - Interpreter
+   - Iterator
+   - Mediator
+   - Memento
+   - Observer
+   - State
+   - Strategy
+   - Template Method
+   - Visitor
