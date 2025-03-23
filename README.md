@@ -23,6 +23,7 @@
    npm run adapter
    npm run builder
    npm run proxy
+   npm run fluent-interface
    ```
 
 ## Категории Паттернов Проектирования
@@ -60,3 +61,4 @@
    - Strategy
    - Template Method
    - Visitor
+   - [Fluent Interface](src/behavioral/fluent-interface/fluent-interface.md)
