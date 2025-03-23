@@ -45,7 +45,7 @@
    - [Adapter](src/structural/adapter/adapter.md)
    - [Bridge](src/structural/bridge/bridge.md)
    - Composite
-   - Decorator
+   - [Decorator](src/structural/decorator/decorator.md)
    - Facade
    - Flyweight
    - [Proxy](src/structural/proxy/proxy.md)

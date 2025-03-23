@@ -4,12 +4,13 @@
 	"description": "A project demonstrating design patterns",
 	"scripts": {
 		"singleton": "ts-node src/creational/singleton/singleton.ts",
-		"proxy": "ts-node src/structural/proxy/proxy.ts",
 		"adapter": "ts-node src/structural/adapter/adapter.ts",
 		"builder": "ts-node src/creational/builder/builder.ts",
+		"proxy": "ts-node src/structural/proxy/proxy.ts",
 		"fluent-interface": "ts-node src/behavioral/fluent-interface/fluent-interface.ts",
 		"bridge": "ts-node src/structural/bridge/bridge.ts",
-		"strategy": "ts-node src/behavioral/strategy/strategy.ts"
+		"strategy": "ts-node src/behavioral/strategy/strategy.ts",
+		"decorator": "ts-node src/structural/decorator/decorator.ts"
 	},
 	"author": "",
 	"license": "ISC",
