@@ -24,6 +24,8 @@
    npm run builder
    npm run proxy
    npm run fluent-interface
+   npm run bridge
+   npm run strategy
    ```
 
 ## Категории Паттернов Проектирования
@@ -58,7 +60,7 @@
    - Memento
    - Observer
    - State
-   - Strategy
+   - [Strategy](src/behavioral/strategy/strategy.md)
    - Template Method
    - Visitor
    - [Fluent Interface](src/behavioral/fluent-interface/fluent-interface.md)
