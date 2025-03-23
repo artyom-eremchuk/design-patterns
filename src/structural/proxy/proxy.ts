@@ -59,27 +59,14 @@ interface SuperheroProxy {
 
 // Refactored SuperheroProxy implementation
 class SuperheroProxyImpl implements SuperheroProxy {
-	private realSuperhero: Superhero;
-	private logger: ActionLogger;
-	private cache: ActionCache;
-
 	constructor(
-		name: string,
-		powers: string[],
-		weapons: string[],
-		costume: string,
-		logger: ActionLogger,
-		cache: ActionCache
-	) {
-		this.realSuperhero = new RealSuperhero(name, powers, weapons, costume);
-		this.logger = logger;
-		this.cache = cache;
-	}
+		private realSuperhero: Superhero,
+		private logger: ActionLogger,
+		private cache: ActionCache
+	) {}
 
 	getSuperhero(): Superhero {
-		console.log(
-			`The superhero introduces himself as: ${this.realSuperhero.name}`
-		);
+		console.log(`I'm ${this.realSuperhero.name}`);
 		return this.realSuperhero;
 	}
 
@@ -113,21 +100,20 @@ class SuperheroProxyImpl implements SuperheroProxy {
 
 // Usage
 function demonstrationProxy() {
-	const logger = new ActionLogger();
 	const cache = new ActionCache();
-
-	const proxy = new SuperheroProxyImpl(
+	const logger = new ActionLogger();
+	const realSuperhero = new RealSuperhero(
 		"Batman",
-		["Strength", "Intelligence"],
-		["Batarang"],
-		"Black Suit",
-		logger,
-		cache
+		["strength", "intelligence"],
+		["batarang"],
+		"black"
 	);
 
-	proxy.performAction("Fighting crime");
-	proxy.printCachedAction();
-	proxy.printActionLog();
+	const superheroProxy = new SuperheroProxyImpl(realSuperhero, logger, cache);
+
+	superheroProxy.performAction("Fighting crime");
+	superheroProxy.printCachedAction();
+	superheroProxy.printActionLog();
 }
 
 demonstrationProxy();
