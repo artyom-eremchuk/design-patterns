@@ -7,7 +7,8 @@
 		"proxy": "ts-node src/structural/proxy/proxy.ts",
 		"adapter": "ts-node src/structural/adapter/adapter.ts",
 		"builder": "ts-node src/creational/builder/builder.ts",
-		"fluent-interface": "ts-node src/behavioral/fluent-interface/fluent-interface.ts"
+		"fluent-interface": "ts-node src/behavioral/fluent-interface/fluent-interface.ts",
+		"bridge": "ts-node src/structural/bridge/bridge.ts"
 	},
 	"author": "",
 	"license": "ISC",

@@ -41,7 +41,7 @@
 2. **Структурные Паттерны (Structural Patterns)**:
 
    - [Adapter](src/structural/adapter/adapter.md)
-   - Bridge
+   - [Bridge](src/structural/bridge/bridge.md)
    - Composite
    - Decorator
    - Facade
