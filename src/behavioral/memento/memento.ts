@@ -1,5 +1,3 @@
-// superhero-memento.ts
-
 // Interface for the Superhero's State
 export interface ISuperheroState {
 	health: number;
