@@ -57,7 +57,7 @@
    - Interpreter
    - Iterator
    - Mediator
-   - Memento
+   - [Memento](src/behavioral/memento/memento.md)
    - Observer
    - State
    - [Strategy](src/behavioral/strategy/strategy.md)

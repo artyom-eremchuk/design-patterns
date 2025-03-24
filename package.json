@@ -10,7 +10,8 @@
 		"fluent-interface": "ts-node src/behavioral/fluent-interface/fluent-interface.ts",
 		"bridge": "ts-node src/structural/bridge/bridge.ts",
 		"strategy": "ts-node src/behavioral/strategy/strategy.ts",
-		"decorator": "ts-node src/structural/decorator/decorator.ts"
+		"decorator": "ts-node src/structural/decorator/decorator.ts",
+		"memento": "ts-node src/behavioral/memento/memento.ts"
 	},
 	"author": "",
 	"license": "ISC",
