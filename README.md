@@ -26,6 +26,9 @@
    npm run fluent-interface
    npm run bridge
    npm run strategy
+   npm run decorator
+   npm run memento
+   npm run observer
    ```
 
 ## Категории Паттернов Проектирования
@@ -58,7 +61,7 @@
    - Iterator
    - Mediator
    - [Memento](src/behavioral/memento/memento.md)
-   - Observer
+   - [Observer](src/behavioral/observer/observer.md)
    - State
    - [Strategy](src/behavioral/strategy/strategy.md)
    - Template Method

@@ -11,7 +11,8 @@
 		"bridge": "ts-node src/structural/bridge/bridge.ts",
 		"strategy": "ts-node src/behavioral/strategy/strategy.ts",
 		"decorator": "ts-node src/structural/decorator/decorator.ts",
-		"memento": "ts-node src/behavioral/memento/memento.ts"
+		"memento": "ts-node src/behavioral/memento/memento.ts",
+		"observer": "ts-node src/behavioral/observer/observer.ts"
 	},
 	"author": "",
 	"license": "ISC",
