@@ -29,6 +29,7 @@
    npm run decorator
    npm run memento
    npm run observer
+   npm run factory-method
    ```
 
 ## Категории Паттернов Проектирования
@@ -42,6 +43,7 @@
    - Factory Method
    - Prototype
    - [Singleton](src/creational/singleton/singleton.md)
+   - [Factory Method](src/creational/factory-method/factory-method.md)
 
 2. **Структурные Паттерны (Structural Patterns)**:
 
