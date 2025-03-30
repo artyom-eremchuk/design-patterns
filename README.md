@@ -30,6 +30,7 @@
    npm run memento
    npm run observer
    npm run factory-method
+   npm run state
    ```
 
 ## Категории Паттернов Проектирования
@@ -64,7 +65,7 @@
    - Mediator
    - [Memento](src/behavioral/memento/memento.md)
    - [Observer](src/behavioral/observer/observer.md)
-   - State
+   - [State](src/behavioral/state/state.md)
    - [Strategy](src/behavioral/strategy/strategy.md)
    - Template Method
    - Visitor
